@@ -224,9 +224,9 @@ SSH into the control node and follow the steps below:
 - Copy the ansible.cfg file to /etc/ansible.
 - Update the Config file to include an IP or multiple IPs then add: "ansible_python_interpreter=/usr/bin/python3" to the end of a line for example
 
-[webservers]```
+[webservers]
 
-10.0.0.5 ansible_python_interpreter=/usr/bin/python3"```
+```10.0.0.5 ansible_python_interpreter=/usr/bin/python3"```
 
 - Run the playbook, and navigate to Kibana(http://IPADDRESSOFVM:5601/app/kibana) to check that the installation worked as expected.
 
