@@ -230,11 +230,11 @@ SSH into the control node and follow the steps below:
 
 - Run the playbook, and navigate to Kibana(http://IPADDRESSOFVM:5601/app/kibana) to check that the installation worked as expected.
 
-Which file is the playbook? Where do you copy it?
+"Which file is the playbook? Where do you copy it?"
 -  the playbook is called elk-stack-playbook.yml and copy it into /etc/ansible using the cp command
 
-Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? 
+"Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?" 
 - you will need to edit it in the host file in /etc/ansiable nano the host file and add the IPs to [webservers] or you could add it as a different name just use the [] to enclose it
 
-Which URL do you navigate to in order to check that the ELK server is running? 
+"Which URL do you navigate to in order to check that the ELK server is running?" 
 - to check the ELK server is running you would navigate to this URL: http://IPADDRESS:5601/app/kibana
