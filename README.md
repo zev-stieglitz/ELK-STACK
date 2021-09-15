@@ -232,7 +232,7 @@ SSH into the control node and follow the steps below:
 
 ### For example:
 
-[webservers]
+#### [webservers]
 
 ```10.0.0.5 ansible_python_interpreter=/usr/bin/python3"```
 
