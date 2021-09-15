@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
 Network Diagram for ELK STACK & Red Team
 ❮img src="/Diagrams/My-Cloud+ELKSTACK%20final.png" width="50" ❯
-![](/Diagrams/My-Cloud+ELKSTACK%20final.png)
+![](Diagrams/My-Cloud+ELKSTACK%20final.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -202,7 +202,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-❮img src="(/images/ELKPS.png" width="50" ❯
+❮img src="(/images/ELKPS.png"width="50" ❯
 ![](/images/ELKPS.png)
 
 ### Target Machines & Beats
