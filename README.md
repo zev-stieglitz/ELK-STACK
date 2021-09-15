@@ -3,7 +3,7 @@
 The files in this repository were used to configure the network depicted below.
 
 Network Diagram for ELK STACK & Red Team
-https://drive.google.com/file/d/1nCvn065KrBHIQ22663Ss4PT41UFS1_lk/view?usp=sharing
+[googleDrive](https://drive.google.com/file/d/1nCvn065KrBHIQ22663Ss4PT41UFS1_lk/view?usp=sharing)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
