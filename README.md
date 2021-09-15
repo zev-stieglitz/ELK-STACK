@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-Network Diagram for ELK STACK & Red Team
+#### Network Diagram for ELK STACK & Red Team
 
 ![](/Diagrams/My-Cloud+ELKSTACK%20final.png)
 
@@ -217,6 +217,11 @@ These Beats allow us to collect the following information from each machine:
 
 - filebeat monitors the log files that you choose, then we use the data filebeat provided us to see what changes or messeges the logs recivied 
 - metricbeat monitors and records the metrics/statistics from the OS which we could use to see how much CPU/RAM usage was used.
+
+### Filebeat:
+![](/images/KibanaOutput/filebeat/filebeat.png)
+### Metricbeat:
+![](/images/KibanaOutput/metricbeat/MetricBeat.png)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
